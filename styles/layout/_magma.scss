@@ -1,0 +1,31 @@
+.magna {
+  @include centerchild();
+
+  .magna-left {
+    width: 30%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .magna-right {
+    width: 70%;
+    .magna-main {
+      margin: 0 20px 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+
+      h2 {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+      }
+      p {
+        margin-bottom: 20px;
+        line-height: 40px;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.btn {
+  text-decoration: none;
+  border: 1px solid rgb(91, 88, 88);
+  background: transparent;
+  color: black;
+  padding: 10px 25px;
+  border-radius: 20px;
+  text-transform: uppercase;
+
+  &:hover {
+    background: transparent;
+    color: whitesmoke;
+    background: black;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+}
